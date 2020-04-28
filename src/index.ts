@@ -1,1 +1,5 @@
-console.log("hello world!");
+import CookieStore from './CookieStore';
+
+const cookieStore = new CookieStore();
+
+export default cookieStore;
