@@ -1,5 +1,6 @@
 import CookieStore from './CookieStore';
+import { ICookieStore } from './index.d'
 
-const cookieStore = new CookieStore();
+const cookieStore: ICookieStore = new CookieStore();
 
 export default cookieStore;
