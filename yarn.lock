@@ -957,6 +957,13 @@
   resolved "https://registry.nlark.com/@types/node/download/@types/node-15.3.0.tgz#d6fed7d6bc6854306da3dea1af9f874b00783e26"
   integrity sha1-1v7X1rxoVDBto96hr5+HSwB4PiY=
 
+"@types/set-cookie-parser@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.nlark.com/@types/set-cookie-parser/download/@types/set-cookie-parser-2.4.0.tgz?cache=0&sync_timestamp=1621242648158&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fset-cookie-parser%2Fdownload%2F%40types%2Fset-cookie-parser-2.4.0.tgz#10cc0446bad372827671a5195fbd14ebce4a9baf"
+  integrity sha1-EMwERrrTcoJ2caUZX70U685Km68=
+  dependencies:
+    "@types/node" "*"
+
 "@webassemblyjs/ast@1.11.0":
   version "1.11.0"
   resolved "https://registry.nlark.com/@webassemblyjs/ast/download/@webassemblyjs/ast-1.11.0.tgz#a5aa679efdc9e51707a4207139da57920555961f"
