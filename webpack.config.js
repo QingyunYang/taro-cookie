@@ -11,9 +11,12 @@ const config = {
     rules: [
       {
         test: /\.ts(x)?$/,
-        use: [
-          'awesome-typescript-loader'
-        ],
+        loader: 'ts-loader',
+        exclude: /node_modules/
+      },
+      {
+        test: /\.js$/,
+        use: 'babel-loader',
         exclude: /node_modules/
       }
     ]
