@@ -5,7 +5,8 @@ const config = {
   entry: './src/index.ts',
   output: {
     path: path.resolve(__dirname, 'lib'),
-    filename: 'taro-cookie.js'
+    filename: 'taro-cookie.js',
+    libraryTarget: 'umd',
   },
   module: {
     rules: [
