@@ -5,7 +5,7 @@ const config = {
   entry: './src/index.ts',
   output: {
     path: path.resolve(__dirname, 'lib'),
-    filename: 'bundle.js'
+    filename: 'taro-cookie.js'
   },
   module: {
     rules: [
