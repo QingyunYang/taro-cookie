@@ -1,4 +1,3 @@
-// import api from './api'
 import { getStorageSync, setStorageSync } from '@tarojs/taro'
 
 /**
