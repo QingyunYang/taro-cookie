@@ -1,2 +1,3 @@
-const cookieStore = require('./lib/taro-cookie.js');
-module.exports = cookieStore;
+import CookieStore from './lib/index'
+export { cookieInterceptor } from './lib/index'
+export default CookieStore

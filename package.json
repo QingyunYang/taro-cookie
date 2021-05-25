@@ -2,7 +2,7 @@
   "name": "taro-cookie",
   "version": "1.0.7",
   "description": "",
-  "main": "lib/index.js",
+  "main": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
