@@ -11,17 +11,20 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
-    "@tarojs/taro": "^3.2.8",
-    "set-cookie-parser": "^2.4.8"
+    "@tarojs/taro": "^3.2.9",
+    "set-cookie-parser": "^2.4.8",
+    "url-parse": "^1.5.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.2",
+    "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
+    "@types/react": "^17.0.6",
     "@types/set-cookie-parser": "^2.4.0",
+    "@types/url-parse": "^1.4.3",
     "babel-loader": "^8.2.2",
-    "ts-loader": "^9.1.2",
+    "ts-loader": "^9.2.2",
     "typescript": "^4.2.4",
-    "webpack": "^5.37.0",
+    "webpack": "^5.37.1",
     "webpack-cli": "^4.7.0"
   }
 }
